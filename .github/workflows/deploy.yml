@@ -95,7 +95,7 @@ jobs:
 
   build_macos_intel:
     name: Build MacOS (Intel) artifacts
-    runs-on: macos-13
+    runs-on: macos-15-intel
     steps:
       - name: Prepare MacOS tools
         run: |
